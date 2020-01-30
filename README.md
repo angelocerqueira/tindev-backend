@@ -14,94 +14,64 @@
 ---
 
 
-
 ## 📝 Table of Contents
 
-- [About](#about)
+- [Features](#about)
 - [Getting Started](#getting_started)
 - [Usage](#usage)
 - [Contributing](../CONTRIBUTING.md)
 - [Authors](#authors)
 
 
-## 🧐 About <a name = "about"></a>
+## 🧐 Features <a name = "features"></a>
 
-Aplication 
+ - 💹 **Node Js** — A web framework for Node Js
+- 📄 **MongoDB** — A cross-platform and open-source document-oriented database
+- ♻️ **Socket IO** — A library for realtime web applications 
+
+  ### 🔥 **Application**
+    #### Backend of the Tindev application. A tinder for developers.
+
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+1. Clone this repo using 
+    ```
+    git clone https://github.com/angelocerqueira/tindev-backend.git)
+    ```
+  2. Move yourself to the appropriate directory:
+      ``` 
+      cd tindev 
+      ```
+  3. To install dependencies run: 
+      ```
+      yarn
+      ```
+   <br />
 
-### Prerequisites
+### Getting started with the backend server
 
-What things you need to install the software and how to install them.
+1. Move yourself to the backend folder: 
+    ```
+    cd backend
+    ```
+2. Create a `.env` file and add the MongoDB url connection in MONGO_URL field
+3. To start the server run:
+   ```
+   yarn dev
+   ```
 
-```
-Examples
-```
+### Go to repo: 
+- [frontend tindev version](https://github.com/angelocerqueira/tindev-frontend-reactjs) 
 
-### Installing
+or 
 
-A step by step series of examples that tell you how to get a development env running.
+- [mobile tindev version](https://github.com/angelocerqueira/tindev-mobile-reactnative) 
 
-Say what the step will be
 
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
-
-## 🔧 Running the tests <a name = "tests"></a>
-
-Explain how to run the automated tests for this system.
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## 🎈 Usage <a name="usage"></a>
-
-Add notes about how to use the system.
-
-## 🚀 Deployment <a name = "deployment"></a>
-
-Add additional notes about how to deploy this on a live system.
-
-## ⛏️ Built Using <a name = "built_using"></a>
-
-- [Insomnia]() - 
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [Socket.io]() - 
-- [NodeJs](https://nodejs.org/en/) - Server Environment
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@angelocerqueira](https://github.com/angelocerqueira) - Idea & Initial work
+- [@rocketseat](https://github.com/rocketseat) - Idea & Initial work
 
 
-
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
